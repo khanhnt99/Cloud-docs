@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: nginx-deployment 
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx-deployment
+  template:
+    metadata:
+      labels:
+        app: nginx-deployment
+    spec:
+      containers:
+        - name: nginx-deployment
+          image: nginx 
+        #image cua container docker
+          ports: 
+          - containerPort: 8080
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-svc
+spec:
+  ports:
+  # port ben ngoai ma cac pods co the giao tiep voi nhau
+  - port: 80
+    targetPort: 8080
+    protocol: TCP
+    name: http
+  selector:
+    # dua theo app : nginx-deployment phia tren se map voi service nay
+    app: nginx-deployment
+  type: ClusterIP
