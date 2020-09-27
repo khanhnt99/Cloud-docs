@@ -77,3 +77,7 @@ sample-pod                          1/1     Running   0          27s    10.200.0
 
 - `kubectl get pods --watch` : xem trạng thái khi thay đổi
 - `pods` được monitor bằng `kubelet` (`kubelet` chạy trên các node)
+
+__Docs__
+- https://github.com/khanhnt99/Linux/tree/master/Kubernetes/Concepts
+- https://github.com/khanhnt99/Kubernetes/tree/master/docs

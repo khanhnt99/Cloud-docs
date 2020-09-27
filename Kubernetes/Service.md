@@ -33,3 +33,7 @@ Client truy cập vào node 2 qua port 30050
 Sau đó chuyển hướng tới Service Object
 Service liên kết tới 1 Endpoint Object và luôn up-to-date danh sách Pods matching với label selector.
 ``` 
+
+__Docs__
+- https://github.com/khanhnt99/Linux/tree/master/Kubernetes/Concepts
+- https://github.com/khanhnt99/Kubernetes/tree/master/docs

@@ -46,4 +46,6 @@ sample-daemon-kwl52                 1/1     Running   0          63s    10.200.0
 __ Tài liệu tham khảo__
 
 - https://blog.vietnamlab.vn/2020/05/05/nhap-mon-kubernetes-p5-kubernetes-workloads-resource-2/
+- https://github.com/khanhnt99/Linux/tree/master/Kubernetes/Concepts
+- https://github.com/khanhnt99/Kubernetes/tree/master/docs
 

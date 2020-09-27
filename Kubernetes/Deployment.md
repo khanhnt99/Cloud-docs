@@ -208,6 +208,9 @@ mysql-1592048710   0/1     1            0           105d   mysql-1592048710   my
 nginx-deployment   3/3     3            3           13m    nginx              nginx          app=nginx-deployment
 ```
 
+__Docs__
+- https://github.com/khanhnt99/Linux/tree/master/Kubernetes/Concepts
+- https://github.com/khanhnt99/Kubernetes/tree/master/docs
 
 
 
