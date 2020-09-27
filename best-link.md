@@ -1,0 +1,6 @@
+- https://www.frozentux.net/iptables-tutorial/iptables-tutorial.html
+- http://www.zytrax.com/books/ldap/
+- http://www.slideshare.net/vietstack/gioithieu-cloud-computingphienbannhap
+- http://www.slideshare.net/vietstack/gioithieu-open-stackphienbannhap
+- http://cloudn1n3.blogspot.com/2014/11/1-openstack-series-part-1-how-do-you.html
+- https://github.com/hocchudong/Thuc-tap-thang-03-2016/tree/master/ThaiPH/VirtualSwitch
